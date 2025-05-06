@@ -266,7 +266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f5c426a9be769b741b5b2dd0897ab59b, type: 3}
       propertyPath: m_Name
-      value: character (1)
+      value: Plyaer
       objectReference: {fileID: 0}
     - target: {fileID: 2223639932434330405, guid: f5c426a9be769b741b5b2dd0897ab59b, type: 3}
       propertyPath: m_Animation
@@ -415,7 +415,7 @@ NavMeshAgent:
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 3000
+  m_AngularSpeed: 5000
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -510,8 +510,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20330922, y: 0.00007376509, z: -0.000015317024, w: 0.9791146}
-  m_LocalPosition: {x: 0, y: 4.69, z: -7.14}
+  m_LocalRotation: {x: 0.20172654, y: 0.00004479091, z: -0.000009225167, w: 0.9794419}
+  m_LocalPosition: {x: 0, y: 6.65, z: -11.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -615,8 +615,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056357477}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20330921, y: 0.000073765084, z: -0.000015317024, w: 0.9791146}
-  m_LocalPosition: {x: 0, y: 4.69, z: -7.14}
+  m_LocalRotation: {x: 0.20172653, y: 0.000044790904, z: -0.000009225164, w: 0.97944194}
+  m_LocalPosition: {x: 0, y: 6.65, z: -11.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -675,7 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 4.69, z: -7.14}
+  m_FollowOffset: {x: 0, y: 6.65, z: -11.76}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1

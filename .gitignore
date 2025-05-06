@@ -1,0 +1,32 @@
+# 🔸 기본 유니티 캐시/빌드 무시
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+UserSettings/
+MemoryCaptures/
+Logs/
+
+# 🔸 Visual Studio 관련
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.tmp
+
+# 🔸 OS 쓰레기 파일
+.DS_Store
+Thumbs.db
+*.bak
+*.old
+*.log
+
+# 🔸 대용량 리소스 제외하고 .cs, .unity만 허용
+!Assets/**/*.cs
+!Assets/**/*.unity
+Assets/*
+!Assets/Scripts/
+!Assets/Scenes/
